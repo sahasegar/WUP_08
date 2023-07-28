@@ -63,3 +63,28 @@ summary.lm(simp)
 ```
 The adjusted R squared depended on weight is 0.7423. 
 
+```{r}
+simp <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+The adjusted r squared for chest is 0.7869
+
+
+### Discussion and Conclusion
+
+The largest is determined the best. While analyzing all of the following adjusted r squared, the head length is finalized as the best due to it's higher number of 0.8343 compared to others. 
+
+The adjusted r squared data:
+
+Age            = 0.5073
+Head width     = 0.5321
+Weight         = 0.7423
+Neck           = 0.7476
+Chest          = 0.7869
+Head length    = 0.8434
+
+
+
+
