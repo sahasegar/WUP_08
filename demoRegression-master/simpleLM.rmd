@@ -79,10 +79,15 @@ The largest is determined the best. While analyzing all of the following adjuste
 The adjusted r squared data:
 
 Age            = 0.5073
+
 Head width     = 0.5321
+
 Weight         = 0.7423
+
 Neck           = 0.7476
+
 Chest          = 0.7869
+
 Head length    = 0.8434
 
 
